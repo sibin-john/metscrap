@@ -52,7 +52,7 @@ Scrape an input URL and parse its metadata. If the page has OG parameters set ex
     $ pm2 restart ./bin/www --update-env
     ```
 
-* Go to  `http://your.domain:HTTP_PORT` to view the home page. e.g. localhost:3000
+* Go to  `http://your.domain:HTTP_PORT` to view the home page. e.g. localhost:3000 OR just localhost if port is 80
 * Also it is able to send POST requests to the endpoint "http://your.domain:HTTP_PORT". 
   e.g. localhost:3000  data: {url: "url-to-scrap"}
 * Send GET requests to the endpoint "http://your.domain:HTTP_PORT/?url=url-to-scrap". 
